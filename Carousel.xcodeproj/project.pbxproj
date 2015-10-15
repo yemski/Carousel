@@ -13,6 +13,8 @@
 		1A9AA4D01BCE25B700314F5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9AA4CF1BCE25B700314F5E /* Images.xcassets */; };
 		1A9AA4D31BCE25B700314F5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A9AA4D11BCE25B700314F5E /* LaunchScreen.xib */; };
 		1A9AA4DF1BCE25B700314F5E /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9AA4DE1BCE25B700314F5E /* CarouselTests.swift */; };
+		1A9AA4E91BCE2A6000314F5E /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9AA4E81BCE2A6000314F5E /* Common.swift */; };
+		1A9AA4EB1BCE2B0E00314F5E /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9AA4EA1BCE2B0E00314F5E /* IntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		1A9AA4D81BCE25B700314F5E /* CarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9AA4DD1BCE25B700314F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A9AA4DE1BCE25B700314F5E /* CarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTests.swift; sourceTree = "<group>"; };
+		1A9AA4E81BCE2A6000314F5E /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../../../../Desktop/Common.swift; sourceTree = "<group>"; };
+		1A9AA4EA1BCE2B0E00314F5E /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				1A9AA4C81BCE25B700314F5E /* AppDelegate.swift */,
 				1A9AA4CA1BCE25B700314F5E /* ViewController.swift */,
 				1A9AA4CC1BCE25B700314F5E /* Main.storyboard */,
+				1A9AA4EA1BCE2B0E00314F5E /* IntroViewController.swift */,
+				1A9AA4E81BCE2A6000314F5E /* Common.swift */,
 				1A9AA4CF1BCE25B700314F5E /* Images.xcassets */,
 				1A9AA4D11BCE25B700314F5E /* LaunchScreen.xib */,
 				1A9AA4C61BCE25B700314F5E /* Supporting Files */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A9AA4CB1BCE25B700314F5E /* ViewController.swift in Sources */,
+				1A9AA4E91BCE2A6000314F5E /* Common.swift in Sources */,
 				1A9AA4C91BCE25B700314F5E /* AppDelegate.swift in Sources */,
+				1A9AA4EB1BCE2B0E00314F5E /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = Carousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = Carousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +415,7 @@
 				1A9AA4E41BCE25B700314F5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A9AA4E51BCE25B700314F5E /* Build configuration list for PBXNativeTarget "CarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +424,7 @@
 				1A9AA4E71BCE25B700314F5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
